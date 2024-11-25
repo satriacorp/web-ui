@@ -1,0 +1,15 @@
+{
+  "version": "0.0.40",
+  "name": "@satriacorp/web-ui",
+  "description": "satriacorp UI library for web",
+  "license": "MIT",
+  "keywords": [
+    "satriacorp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satriacorp/web-ui.git"
+  },
+  "homepage": "https://satriacorp.com",
+  "main": "src/index.js"
+}
