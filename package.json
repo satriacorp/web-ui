@@ -1,5 +1,5 @@
 {
-  "version": "0.0.49",
+  "version": "0.0.50",
   "name": "@satriacorp/web-ui",
   "description": "satriacorp UI library for web",
   "license": "MIT",
@@ -16,7 +16,6 @@
     "build": "webpack"
   },
   "dependencies": {
-    "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
