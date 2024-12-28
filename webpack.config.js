@@ -5,12 +5,11 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'index.js',
-        library: 'YourLibraryName',
+        library: '@satriacorp/web-ui',
         libraryTarget: 'umd',
     },
     externals: {
         react: 'react',
-        'react-dom': 'react-dom',
     },
     module: {
         rules: [
@@ -24,5 +23,5 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx'],
     },
-    mode: 'production',
+    mode: 'development',
 }
