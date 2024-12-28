@@ -1,5 +1,5 @@
 {
-  "version": "0.0.59",
+  "version": "0.0.60",
   "name": "@satriacorp/web-ui",
   "description": "satriacorp UI library for web",
   "license": "MIT",
@@ -11,8 +11,19 @@
     "url": "https://github.com/satriacorp/web-ui.git"
   },
   "homepage": "https://satriacorp.com",
-  "main": "src/index.jsx",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
   }
 }
