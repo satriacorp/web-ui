@@ -1,1 +1,2 @@
-export { default as MyComponent } from './MyComponent'
+export { ThemeContext } from './Contexts'
+export { default as Button } from './Button'
